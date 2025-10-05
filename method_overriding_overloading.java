@@ -4,6 +4,7 @@ class keyboard{
     }
 
     // 🔹 Method Overloading (Compile-time Polymorphism)
+    //same method with different parameters
     public void pressed(int times) {
         System.out.println("got hit " + times + " times");
     }
